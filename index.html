@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Module 4 JavaScript Quiz</title>
   </head>
   <body>
     <!-- Nav Bar with highscore link and timer -->
@@ -14,15 +15,17 @@
       <div id="timer">Time:</div>
     </nav>
 
-    <header>
+    <header id="openingSlide shown">
       <h1>Coding Quiz Challenge</h1>
+      <h2>Press start to play!</h2>
+      <button id="startButton">start</button>
     </header>
 
-    <main>
+    <main id="questionBox hidden">
       <!-- question text -->
       <h2>Question Text</h2>
       <!-- button options -->
-      <button id="Button1"></button>
+      <button id="Button1 answerButton"></button>
       <button id="Button2"></button>
       <button id="Button3"></button>
       <button id="Button4"></button>
@@ -30,7 +33,7 @@
 
     <footer>
       <!-- start button -->
-      <button id="startButton"></button>
+      <!-- <button id="startButton">start</button> -->
 
       <!-- output response (correct or incorrect) -->
       <p id="outputResponse"></p>

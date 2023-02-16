@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .nav {
   background-color: aliceblue;
   padding: 0;
@@ -16,8 +20,19 @@
 header {
   border: black solid 5px;
   text-align: center;
+  width: 100%;
 }
 
-main h2 {
-  text-align: center;
+main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+#startbutton {
+  content: center;
+}
+
+#answerButton {
+  font-size: 24px;
 }
