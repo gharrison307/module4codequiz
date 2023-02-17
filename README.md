@@ -1,5 +1,7 @@
 # module4codequiz
 
+git
+
 # <Module4challenge>
 
 ## Module4challenge
@@ -10,6 +12,6 @@
 
 This is the fourth module challenge of bootcamp. From scratch, we were required to create a multiple choice quiz with a timer, scorekeeping, and high score board to post your score and initials.
 
-Please find this project's hosted webpage here: https://gharrison307.github.io/module3challenge/
+Please find this project's hosted webpage here: https://gharrison307.github.io/module4codequiz/
 
-Please find this project's repository page here: https://github.com/gharrison307/module3challenge
+Please find this project's repository page here: https://github.com/gharrison307/module4codequiz
