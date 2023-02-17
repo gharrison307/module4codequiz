@@ -17,6 +17,10 @@
   font-size: 24px;
 }
 
+#score {
+  text-align: left;
+  font-size: 24px;
+}
 header {
   border: black solid 5px;
   text-align: center;
